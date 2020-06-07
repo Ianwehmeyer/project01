@@ -6,13 +6,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width = device-width, initial-scale = 1">
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js">    
-        <title>Order</title>
+        <title>Contact / Reservation</title>
     </head>
     <body>
         <ul>
             <li><a href="index.html">Home</a></li> 
             <li><a href="page2.html">Menu</a></li> 
-            <li><a href="page3.html">Contact</a></li> 
+            <li><a href="page3.html">Contact / Reservation</a></li> 
         </ul> 
+        <form action="https://formspree.io/xknqrazv" method="POST"> 
+        <fieldset>
+            <legend>Contact Information</legend>
+            <select name="service" required>
+                <option value="Reservation">Reservation</option>
+                <option value="Order">Carry Out</option>
+             </select> <br/>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" placeholder="John" required> </br>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Smith" required> </br>
+            <label for="_replyto">Email</label>
+            <input type="email" name="_replyto" placeholder="johnsmith@gmail.com" required> </br>
+            <textarea name="comment" form="usrform">Enter Text Here</textarea>
+        
+        </fieldset>
+            <input type="submit" value="Submit For Reservation"> 
+        </form>
     </body>
 </html>
