@@ -16,10 +16,17 @@ ul {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: blanchedalmond;
+    font-weight: bold;
   }
   .center {
     text-align: center;
     border: 3px solid green;
   }
-  body {background-color: #FFFFD5;}
+  body {
+    background-color: #FFFFD5;
+    color: #6f4e37;
+    text-align: center;
+    text: Georgia, serif;
+    font-weight: bold;
+  }
