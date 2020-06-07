@@ -1,24 +1,19 @@
-
-
-.boxElement {
-    @include arrangeBoxes();
-    font-family: 'Segoe UI'; 
-    font-size: 1.5em;
-    font-weight: bold;
-li {
-    float: left;
-  }
-  
-  a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
-  ul {
-    background-color: #dddddd;
-  }
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
